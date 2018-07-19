@@ -1,0 +1,249 @@
+/*
+* @Author: liruibo
+* @Date:   2018-07-18 15:43:05
+* @Last Modified by:   liruibo
+* @Last Modified time: 2018-07-18 21:21:28
+*/
+@import url("base.css");
+/* 头部开始 */
+.header{
+	width: 100%;
+	height: 72px;
+}
+.header .headwar{
+	width: 1002px;
+	height: 100%;
+	margin: 0 auto;
+}
+.header .logo{
+	width: 210px;
+	height: 28px;
+	float: left;
+	margin-top: 20px;
+}
+.header .logo a{
+	display: block;
+}
+.header .nav{
+	width: 617px;
+	height: 72px;
+	float: right;
+	margin-right:-25px ;
+}
+.header .nav li{
+	width: 104px;
+	height: 72px;
+	padding-right:1px;
+	background: url("../img/nav.gif") right center no-repeat;
+	float: left;
+}
+.header .nav li a{
+	display: block;
+	width: 104px;
+	height: 100%;
+	padding: 0 24px;
+	font-size: 14px;
+	line-height: 72px;
+	color: #333;
+	box-sizing: border-box;
+}
+.header .nav li:first-child{
+	width: 90px;
+}
+.header .nav li:first-child a{
+	width: 90px;
+}
+.header .nav li:last-child{
+	background: none;
+}
+.header .nav li:nth-child(2) a{
+	color:#146ec4 ;
+	background: url("../img/navon.gif") bottom repeat-x;
+}
+.header .nav li:hover a{
+	border-bottom: 3px solid #146ec4;
+	color: #146ec4;
+}
+.header .nav li:first-child:hover a,.header .nav li:last-child:hover a{
+	border: 0;
+}
+/* 头部结束 */
+.pageBanner{
+	width: 100%;
+	height: 250px;
+	background: url('../img/up0885307001452070125.jpg') center;
+}
+
+.pageNow{
+	width: 100%;
+	height: 40px;
+	background-color: #f0f0f0;
+	font-size: 12px;
+}
+.pageNow .pageWal{
+	width: 1002px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: right;
+	line-height: 40px;
+	color: #666;
+}
+.pageNow .pageWal a{
+	color: #666;
+}
+.pageNow .pageWal a:hover{
+	color: #146ec4;
+}
+/* 主体开始 */
+.wal{
+	width: 1002px;
+	height: 388px;
+	margin: 0 auto;
+	position: relative;
+}
+.wal .top{
+	width: 186px;
+	height: 85px;
+	position: absolute;
+	top: -85px;
+	left: 0;
+	text-align: center;
+	background-color: #0756b3;
+}
+.wal .top .title{
+	font-size: 20px;
+	color: #fff;
+	padding: 20px 0 10px 0;
+}
+.wal .top span{
+	color: #ccc;
+	font-size: 16px;
+	font-family: Georgia;
+}
+.wal .sideNav{
+	width: 186px;
+	height: 308px;
+	float: left;
+	padding: 20px 0 10px 0;
+	background-color: #f8f8f8;
+}
+.wal .sideNav .list{
+	width: 100%;
+	height: 40px;
+	padding-bottom: 4px;
+}
+/* .wal .sideNav .list:hover{
+	background-color: #d7c49b;
+} */
+.wal .sideNav .list a:hover{
+	color: #fff;
+	background: url('../img/ico1on.gif') 48px center no-repeat;
+	background-color: #d7c49b;
+}
+/* .wal .sideNav .list:first-child{
+	background-color: #d7c49b;
+} */
+.wal .sideNav .list:first-child a{
+	color: #fff;
+	background: url('../img/ico1on.gif') 48px center no-repeat;
+	background-color: #d7c49b;
+}
+.wal .sideNav .list a{
+	display: block;
+	width: 125px;
+	height: 40px;
+	padding-left: 61px;
+	font-size: 14px;
+	color: #333;
+	line-height: 40px;
+	background: url('../img/ico1.gif') 48px center no-repeat;
+}
+.wal .content{
+	width: 775px;
+	height: 312px;
+	float: right;
+}
+.wal .content .pageTitle{
+	width: 100%;
+	height: 58px;
+	border-bottom: #17468e solid 2px;
+	box-sizing: border-box;
+	line-height: 58px;
+	color: #17468e;
+	font-size: 26px;
+	font-weight: bold;
+}
+.wal .content .about{
+	width: 775px;
+	height: 222px;
+	padding: 15px 0;
+	color: #666;
+	font-size: 14px;
+}
+.wal .content .about p{
+	margin-bottom: 22px;
+}
+.wal .content .about p:last-child{
+	margin: 0;
+}
+/* 主体结束 */
+/* 底部开始 */
+.footNav{
+	width: 100%;
+	height: 40px;
+	background-color:#0756b3;
+	text-align: center;
+	line-height: 40px; 
+	font-size: 12px;
+}
+.footNav a{
+	display: inline-block;
+	color: #fff;
+	padding: 0 35px;
+	background: url('../img/footNav.png') right center no-repeat;
+}
+.footNav a:last-child{
+	background: none;
+}
+.foot{
+	width: 100%;
+	height: 31px;
+	text-align: center;
+	color: #666;
+	line-height: 31px;
+	font-size: 12px;
+}
+.foot a{
+	display: inline-block;
+	color: #666;
+	font-size: 12px;
+	margin-left: 50px;
+}
+.foot a:hover{
+	color:#146ec4;
+}
+.foot .second{
+	margin-left: 0;
+}
+.bot{
+	width: 300px;
+	height: 20px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.bot a{
+	display: block;
+	width: 300px;
+	height: 60px;
+}
+.bot a img{
+	display: block;
+	float: left;
+}
+.bot p{
+	float: left;
+	font-size: 12px;
+	color: #939393;
+	margin: 0 0 0 5px;
+}
+/* 底部结束 */
